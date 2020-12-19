@@ -1,0 +1,28 @@
+void main() {
+  
+  //Numbers: int
+  int score = 23;
+  var count = 23; //it is inferred as integer automatically by compiler 
+  
+  //Numbers: Double
+  double percentage = 95.5;
+  var percent = 87.34567;
+  
+  
+  //Strings
+  String name = "ilbelzebub";
+  var company = "The Live Code";
+  
+  
+  //Boolean 
+  bool isValid = true;
+  var isAlive = false;
+  
+  
+  
+  print(score);
+  print(isValid);
+  
+  //Note all data types in dart are Objects.
+  //Therefore, thier intital value is by default 'null'
+}
